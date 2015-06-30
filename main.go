@@ -8,7 +8,7 @@ func main() {
 
 	// Definitions from sensors.h
 	SENSORS_API_VERSION := 0x421
-	SENSORS_CHIP_NAME_PREFIX_ANY := "nil"
+	SENSORS_CHIP_NAME_PREFIX_ANY := nil
 	SENSORS_CHIP_NAME_ADDR_ANY := -1
 
 	SENSORS_BUS_TYPE_ANY := -1
