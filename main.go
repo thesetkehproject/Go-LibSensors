@@ -17,4 +17,12 @@ const (
 	SENSORS_BUS_NR_IGNORE    = -2
 )
 
+type sensors_bus_id struct {
+	type int
+	nr int
+}
+
+type sensors_chip_name struct {
+}
+
 func main() {}
