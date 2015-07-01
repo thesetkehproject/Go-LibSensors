@@ -23,6 +23,12 @@ type sensors_bus_id struct {
 }
 
 type sensors_chip_name struct {
+	*prefix byte
+	sensors_bus_id
+	addr int
+	*path byte
 }
+
+
 
 func main() {}
